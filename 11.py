@@ -4,7 +4,7 @@ def validTriangleSides(x, y, z):
     else:
         return False
     
-def sumOdSides(x, y, z):
+def sumOfSides(x, y, z):
     return x + y + z
 
 while True:
@@ -17,7 +17,7 @@ while True:
         valid_or_not = validTriangleSides(num_one, num_two, num_three)
 
         if valid_or_not == True:
-            sum_sides = sumOdSides(num_one, num_two, num_three)
+            sum_sides = sumOfSides(num_one, num_two, num_three)
 
             print(f"{valid_or_not}\n{num_one} {num_two} {num_three}\n{sum_sides}")
 
