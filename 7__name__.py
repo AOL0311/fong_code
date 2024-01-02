@@ -1,0 +1,18 @@
+import math
+
+def circleArea(x):
+    area = x ** 2 * math.pi
+    return area
+
+def circlePerimeter(x):
+    perimeter = x * 2 * math.pi
+    return perimeter
+
+def main():
+    radius = float(input())
+    circle_area = circleArea(radius)
+    circle_perimater = circlePerimeter(radius)
+    print(f"{circle_area} {circle_perimater}")
+
+if __name__ == "__main__":
+    main()
